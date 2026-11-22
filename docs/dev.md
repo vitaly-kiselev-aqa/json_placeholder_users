@@ -17,3 +17,9 @@
     ```shell
     pip install -r requirements.txt
     ```
+
+4. Запустите тесты
+
+    ```shell
+    pytest
+    ```
