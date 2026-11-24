@@ -1,0 +1,9 @@
+target-version = "py313"
+line-length = 88
+src = ["."]
+
+[lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM", "PT", "N", "C4", "RUF"]
+
+[lint.per-file-ignores]
+"schemas/*" = ["N815"]

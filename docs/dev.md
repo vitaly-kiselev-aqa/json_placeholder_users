@@ -23,3 +23,17 @@
     ```shell
     pytest
     ```
+
+# Линтер
+
+* Проверка форматирования
+
+    ```shell
+    ruff format --check
+    ```
+
+* Линтер
+
+    ```shell
+    ruff check
+    ```

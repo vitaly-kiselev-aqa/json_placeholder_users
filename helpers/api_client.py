@@ -1,6 +1,7 @@
-import requests
 from http import HTTPStatus
 from typing import Any, Final
+
+import requests
 
 BASE_URL: Final = "https://jsonplaceholder.typicode.com"
 

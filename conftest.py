@@ -7,4 +7,4 @@ from helpers.api import Api
 def api():
     api = Api()
     yield api
-    api.finalize
+    api.finalize()

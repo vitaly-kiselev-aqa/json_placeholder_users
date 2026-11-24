@@ -1,5 +1,6 @@
+from typing import Any, Final, TypeVar
+
 from pydantic import TypeAdapter
-from typing import Any, TypeVar, Final
 
 from .api_client import ApiClient
 

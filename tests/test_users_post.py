@@ -1,5 +1,5 @@
-from expected_user_count import EXPECTED_USER_COUNT
 from schemas.created_user import CreatedUser
+from tests.expected_user_count import EXPECTED_USER_COUNT
 
 
 def test_create_user(api):
