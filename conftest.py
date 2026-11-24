@@ -1,10 +1,10 @@
 import pytest
 
-from helpers.api_client import ApiClient
+from helpers.api import Api
 
 
 @pytest.fixture(scope="session")
-def api_client():
-    client = ApiClient()
-    yield client
-    client.finalize()
+def api():
+    api = Api()
+    yield api
+    api.finalize
